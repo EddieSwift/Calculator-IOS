@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *inputOutputLabel;
+@property (strong, nonatomic) NSString *tagValue;
+
+- (IBAction)actionChooser:(UIButton *)sender;
+
+
 
 @end
 
